@@ -3,8 +3,8 @@ from django.http import HttpResponse
 import operator
 # Create your views here.
 def name(request):
-	return HttpResponse('Name will be displayed')
+	return HttpResponse('<h1>Name will be displayed</h1>')
 
 def number(request):
-	return HttpResponse('Number will be displayed')
+	return HttpResponse('<h1>Number will be displayed</h1>')
 
