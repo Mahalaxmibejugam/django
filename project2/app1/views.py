@@ -8,4 +8,4 @@ def home(request):
 def aboutus(request):
 	return render(request,'app1/about.html',{'userid':'mahauserid'})
 def hobbies(request):
-	return HttpResponse('<h1> My hobbies are listening to music and playing badminton</h1>')
+	return HttpResponse('<h1>I like to code, listen music and learn new things</h1>')
