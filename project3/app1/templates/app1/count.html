@@ -1,6 +1,9 @@
 <a href="{% url 'home' %}"> My Best Home</a>
-<h1> Number of words in the text provided are:</h1>{{mycount}}
-
+<h1> Number of words in the text provided are:</h1>{{count}}
+<h1>Number of vowels in given text are:</h1>{{myCount}}
+<h1>Given text after removing vowels:</h1>{{mystr}}
+</br>
+</br>
 {% for rn,name in yourlist %}
 {{rn}}-{{name}}
 </br>
